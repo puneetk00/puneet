@@ -1,4 +1,0 @@
-<?php
-
-$coupon_code = "100off";
-Mage::getSingleton('checkout/cart')->getQuote()->setCouponCode($coupon_code)->save();

@@ -1,3 +1,23 @@
 https://forums.aws.amazon.com/message.jspa?messageID=317525
 
-http://synapse.asia/forevernew7738/backup28112016.zip
+query_cache_size = 512M
+query_cache_limit = 256M
+tmp_table_size = 256M
+key_buffer_size = 64M
+read_buffer_size = 128M
+read_rnd_buffer_size = 128M
+bulk_insert_buffer_size = 64M
+myisam_sort_buffer_size = 128M
+myisam_max_sort_file_size = 128M
+myisam_max_extra_sort_file_size = 128M
+myisam_repair_threads = 2
+myisam_recover
+innodb_additional_mem_pool_size = 256M
+innodb_log_buffer_size = 128M
+innodb_log_file_size = 128M
+innodb_log_files_in_group = 2
+innodb_flush_log_at_trx_commit = 0
+innodb_buffer_pool_size = 512M
+innodb_data_home_dir = /var/lib/mysql/
+innodb_data_file_path = ibdata1:256M:autoextend
+innodb_autoextend_increment=32

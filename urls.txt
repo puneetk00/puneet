@@ -24,3 +24,12 @@ innodb_autoextend_increment=32
 
 
 https://docs.google.com/gview?url=http://40.71.47.14:83/pub/media/medialibrary/Media%20Library/test.doc&embedded=true
+
+
+
+1.9.x
+https://www.milaura.com/
+
+2.x
+http://www.book-pal.com/
+https://alohapearls.net
